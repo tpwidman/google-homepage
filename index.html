@@ -1,56 +1,37 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-	<title> Google Clone </title>
-	<link rel=“stylesheet” type=“text/css” href=“style.css”>
-</head>
-
+	<head>
+		<title> Google Clone </title>
+		<link rel=“stylesheet” type=“text/css” href=“style.css”>
+	</head>
 <body>
-
-	<header>
-		<ul id=“nav_bar”>
+   <header>
+		<ul id=“nav_bar” class="right">
 			<li><a href=“#”>Gmail</a></li>
 			<li><a href=“#”>Images</a></li>
-			<li><button name= "sign in">Sign In</button></li>
+			<li><a href=“#” id="signbutton">Sign In</a></li>
 		</ul>
 	</header>
 
-	<div class=“logo”>
+	<div id="center">
 		<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2000px-Google_2015_logo.svg.png">
-	</div>
-
-	<div id=“search_bar”>
 		<form>
-			<input type=“text”>
+			<input id="search_bar" type=“text”><br>
+			<input class="button" value= "Google Search" type="submit">
+			<input class="button" value="I'm Feeling Lucky" type="submit">
 		</form>
-		
 	</div>
 	
-	<div id=“search_buttons”>
-		<form>
-			<button name=“google search”>Google Search</button>
-			<button name=“I’m feeling lucky”>I’m Feeling Lucky</button>
-		</form>
-	</div>
-
 	<footer>
-    		<div class="left">
-      		  <ul>
-			  <li><a href=“#”>Advertising</a></li>
-			  <li><a href=“#”>Business</a></li>
-			  <li><a href=“#”>About</a></li>
-		  </ul>
-    		</div>
-		
-    		<div>
-    
-		  <ul>
-			  <li><a href=“#”>Privacy</a></li>
-			  <li><a href=“#”>Terms</a></li>
-			  <li><a href=“#”>Settings</a></li>
-		  </ul>
-		</div>
-	<footer>
-</body>
+		<ul class="left">
+      			<li><a href=“#”>Advertising</a></li>
+      			<li><a href=“#”>Business</a></li>
+      			<li><a href=“#”>About</a></li>
+		</ul>
+		<ul class="right">
+      			<li><a href=“#”>Privacy</a></li>
+      			<li><a href=“#”>Terms</a></li>
+      			<li><a href=“#”>Settings</a></li>
+		</ul>
+	</footer>
 </html>

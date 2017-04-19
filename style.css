@@ -1,3 +1,87 @@
-body {
-  background-color: green
+header {
+  color: ##757575;
+  font-family: arial, sans-serif;
+  font-size: 15px;
+}
+
+img {
+  width:220px;
+  height: auto;
+}
+
+#center {
+  position: relative;
+  top: 150px;
+  left: 50%;
+  margin-left:-120px;
+}
+
+#search_bar {
+  padding: 0px;
+  margin: 10px;
+  width: 300px;
+  position: relative;
+  left: -50px;
+  outline: none;
+  font: 16px arial, sans-serif;
+  line-height: 34px;
+  height: 28px;
+  box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.15);
+}
+
+.button {
+  border: none;
+  color: ##757575;
+  font-family: arial, sans-serif;
+  font-weight: bold;
+  background-color: #f2f2f2;
+  margin: 11px 4px;
+  padding: 11px;
+}
+
+.button:hover {
+  border: 1px solid #757575;
+}
+
+footer {
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  background: #f2f2f2;
+  line-height: 20px;
+  color: ##757575;
+  font-family: arial, sans-serif;
+  font-size: 13px;
+}
+
+li {
+  display: inline;
+}
+
+.left {
+  float: left;
+  margin-left: px;
+}
+
+.right {
+  float: right;
+  margin-right: 20px;
+}
+
+#signbutton {
+  color: #fff;
+  border-radius:3px;
+	padding: 7.5px 15px;
+	background-color: #4285f4;
+}
+
+a {
+	color:#666;
+	text-decoration:none;
+  padding: 5px;
+}
+
+a:hover {
+  color:#666;
+	text-decoration: underline;
 }
