@@ -1,4 +1,6 @@
 header {
+  position: fixed;
+  width: 100%;
   color: ##757575;
   font-family: arial, sans-serif;
   font-size: 15px;
@@ -10,10 +12,9 @@ img {
 }
 
 #center {
-  position: relative;
+  position: fixed;
   top: 150px;
   left: 50%;
-  margin-left:-120px;
 }
 
 #search_bar {
